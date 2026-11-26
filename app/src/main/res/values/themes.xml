@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема приложения (используется до запуска Compose) -->
+    <style name="Theme.Pr5_zakharov" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/catalog_primary</item>
+        <item name="colorPrimaryVariant">@color/catalog_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/catalog_accent</item>
+        <item name="android:windowBackground">@color/catalog_background</item>
+    </style>
+</resources>
